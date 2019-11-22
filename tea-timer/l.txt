@@ -1,0 +1,5 @@
+ let form = document.forms.form;
+    let number = form.elements.number;
+    start.onclick = function() {
+        console.log(number.value);
+    }
